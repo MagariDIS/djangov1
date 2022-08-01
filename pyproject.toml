@@ -1,0 +1,35 @@
+
+[tool.poetry]
+name = "djangov1"
+version = "0.1.0"
+description = "jobcan connector for Django based projects"
+authors = ["MagariDIS <t.magari@di-square.co.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^3.1.13"
+pprintpp = "*"  # https://github.com/wolever/pprintpp
+bleach = "*"
+asgiref ="^3.3.1"
+gunicorn ="^20.0.4"
+#psycopg2 ="^2.8.6"
+pytz ="^2021.1"
+sqlparse ="^0.4.2"
+setuptools = "^63.2.0"
+pandas = "^1.4.3"
+chromedriver-binary = "^103.0.5060.134"
+selenium = "4.1.0"
+celery = "^5.2.7"
+django-celery-results = "^2.4.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "autopep8"
+autopep8 = "^1.6.0"
+django-debug-toolbar = "^3.5.0"
+darker = "^1.5.0"
+pytest-darker = "^0.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

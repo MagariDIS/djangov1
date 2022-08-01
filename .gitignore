@@ -203,6 +203,7 @@ dmypy.json
 # mkdocs documentation
 
 # mypy
+/site
 
 # Pyre type checker
 

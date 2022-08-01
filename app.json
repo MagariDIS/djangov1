@@ -1,0 +1,21 @@
+{
+"buildpacks": [
+    {
+        "url": "heroku/chromedriver"
+    },
+    {
+      "url": "heroku/google-chrome"
+    }
+  ],
+
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "a5z_2cjb&1*97h3k*nirs(*k+$)(6acb3n77h-+wn3q(w!$l#r"
+    },
+    "jobcanpassword": {
+      "description": "Jobcan Login Passwd",
+      "value": "1038.Magari"
+    }
+  }
+}
