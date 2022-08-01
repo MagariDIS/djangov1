@@ -1,13 +1,12 @@
 {
-"buildpacks": [
+  "buildpacks": [
     {
-        "url": "heroku/chromedriver"
+      "url": "https://github.com/heroku/heroku-buildpack-chromedriver" // "heroku/chromedriver"
     },
     {
-      "url": "heroku/google-chrome"
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome" // "heroku/google-chrome"
     }
   ],
-
   "env": {
     "SECRET_TOKEN": {
       "description": "A secret key for verifying the integrity of signed cookies.",
